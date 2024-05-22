@@ -1,0 +1,348 @@
+.hidden {
+    display: none;
+}
+
+body{
+    background-color: #333333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    color: #ffffff;
+    border: none;
+
+}
+
+h2 {
+    color: #ffffff;
+    text-shadow: 2px 2px 1px black;
+
+}
+
+p {
+    text-align: center;
+    color: #ffffff;
+    font-family: Verdana;
+    text-shadow: 1px 1px 1px black;
+
+}
+
+@keyframes slide {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: auto;
+    margin: 0 auto;
+    text-align: center;
+    background: #1F8391;
+    border-radius: 10px;
+    padding: 15px;
+    width: 30%;
+    height: 50%;
+    margin: 5%;
+    box-shadow: 5px 5px 10px black;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+form label {
+
+    margin-bottom: 8px;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+
+form input[type="text"] {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 70%;
+    border: none;
+    border-radius: 6px;
+    padding: 6px;
+    margin-bottom: 5px;
+    background-color: #ffffff;
+    width: 80%;
+    color: #000000;
+    box-shadow: 1px 1px 1px black
+}
+
+h3 {
+    color: #ffffff;
+    text-shadow: 2px 2px 1px black;
+}
+
+
+form button[type="submit"] {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    margin-top: 2px;
+    background-color: #3238;
+    color: #FFFF;
+    cursor: pointer;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 1px 1px 1px black;
+
+}
+
+form button[type="submit"]:hover {
+    background-color: #0094;
+    border-radius: 4px;
+
+}
+
+#fixarValoresBtn {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    margin-top: 2px;
+    background-color: #3238;
+    color: #FFFF;
+    cursor: pointer;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 1px 1px 1px black;
+
+}
+
+#fixarValoresBtn:hover {
+    background-color: #0094;
+    border-radius: 4px;
+
+}
+
+#resetarValoresBtn {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    margin-top: 2px;
+    background-color: #3238;
+    color: #FFFF;
+    cursor: pointer;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 1px 1px 1px black;
+
+}
+
+#resetarValoresBtn:hover {
+    background-color: #0094;
+    border-radius: 4px;
+
+}
+
+#resultado {
+
+    text-align: center;
+    max-width: auto;
+    font-size: 24px;
+    font-family: Verdana;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #F90453;
+    text-shadow: 1px 1px 1px black;
+    background: #1F8391;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+span {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 8px;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    border: none;
+}
+
+label {
+    font-size: 20px;
+    font-style: italic;
+    color: #333333;
+
+}
+
+img {
+
+    padding: 20px;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.btnValores {
+    padding: 20px;
+    max-width: 100%;
+    height: auto;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        padding: 0;
+
+    }
+
+    form {
+        width: 80%;
+
+    }
+
+    .dados {
+        width: 80%;
+        height: auto;
+        margin: 10%;
+
+    }
+
+}
+
+.card {
+    background: #1F8391;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
+    text-align: center;
+    padding: 30px;
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.card .card-border-top {
+    width: 60%;
+    height: 10%;
+    background: #ffffff;
+    margin: auto;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.card .job {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 12px;
+}
+
+.card .img {
+    width: 130px;
+    height: 130px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    margin: 10px auto 20px auto;
+}
+
+.social-links,
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-btn {
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px black;
+    background: #165a63;
+    margin: 5px;
+    transition: 0.3s;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.social-btn svg {
+    height: 20px;
+    width: 20px;
+}
+
+.social-btn span {
+    width: 0px;
+    overflow: hidden;
+    transition: 0.3s;
+    text-align: center;
+    margin-left: 5px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.social-btn:hover {
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+.social-btn:hover span {
+    padding: 5px;
+    width: 135px;
+    color: #ffffff;
+}
+
+#twitter svg {
+    fill: #1da1f2;
+}
+
+#linkedin svg {
+    fill: #1da1f2;
+}
+
+#github {
+    fill: #ffffff;
+}
+
+@media (min-width: 768px) {
+    .card {
+        width: 40%;
+    }
+}
